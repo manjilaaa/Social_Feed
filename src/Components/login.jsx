@@ -19,7 +19,7 @@ const Login = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-
+    localStorage.setItem("userEmail",data.email);
     navigate("/post")
   };
 
