@@ -8,7 +8,7 @@ function App() {
   
   return (
     <>
-    <Router>
+    <Router basename="/Social_Feed" >
       <Routes>
         <Route path="/" element={ <Login/>}></Route>
         <Route path="/post" element={<Post/>}></Route>
@@ -19,7 +19,7 @@ function App() {
 
     </Router>
     
-      {/* <Login/> */}
+      
      
 
     </>
